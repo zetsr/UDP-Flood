@@ -1,0 +1,5 @@
+{
+    "sub_client": {"port": 5000},
+    "main_client": {"ip": "127.0.0.1", "port": 6000},
+    "psk": "your_key"
+}
