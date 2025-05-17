@@ -3,15 +3,16 @@
 轻量级C2框架，支持对指定目标进行 UDP 流量发包和连通性检测。
 
 ```
-CommandServer/
-├─ config_main.json
-├─ main_client.py
-└─ ping.py
-
-Client/
-├─ config_sub.json
-├─ sub_client.py
-└─ udp.py
+UDP-Flood/
+├─ CommandServer/
+│   ├─ config_main.json     # 母机配置
+│   ├─ main_client.py       # 母机主程序
+│   └─ ping.py              # 连通性检测模块
+└─ Client/
+    ├─ config_sub.json      # 子机配置
+    ├─ sub_client.py        # 子机主程序
+    ├─ ping.py              # 连通性检测模块
+    └─ udp.py               # UDP 发包模块
 ```
 
 ### 使用方法
